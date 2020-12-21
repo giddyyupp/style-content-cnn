@@ -19,7 +19,7 @@ RESIZE = 224
 # model save dir
 PYTORCH_MODELS = "../models/Style/m2_3/ills_crop150_padded/"
 
-LOAD_TRAINED_MODEL = 0 # train asamasinda eski bir model yuklemek isterseniz bunu 1 yapin.
+LOAD_TRAINED_MODEL = 0 # if you want to load a model during train change this to 1.
 
 # train dataset
 train_dir_path = '../dataset/ArtData/train'
