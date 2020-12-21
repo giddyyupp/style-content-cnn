@@ -17,18 +17,18 @@ PATCH_SIZE = 150
 RESIZE = 224
 
 # model save dir
-PYTORCH_MODELS = "../models/Style/m2_3/ills_crop150_padded/"
+PYTORCH_MODELS = "../models/Style/"
 
 LOAD_TRAINED_MODEL = 0 # if you want to load a model during train change this to 1.
 
 # train dataset
-train_dir_path = '../dataset/ArtData/train'
-train_path = train_dir_path + "/dataset_ill_v3/"
+train_dir_path = '../dataset_style/train'
+train_path = train_dir_path + "/"
 
 # test dataset
-test_dir_path = '../dataset/ArtData/test'
-test_path = test_dir_path + '/test_ill_v3_ganilla/'
+test_dir_path = '../dataset_style/test'
+test_path = test_dir_path + '/'
 
 # test_model name
-MODEL_NAME = "../models/art_model-159.pkl"
+MODEL_NAME = "../models/Style/art_model-159.pkl"
 
