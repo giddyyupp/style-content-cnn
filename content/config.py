@@ -1,7 +1,6 @@
 import sys, os
 sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '../dataset/')
 
-# CLASS_LIST = ["coast", "forest", "highway", "inside_city", "korky", "mountain", "Opencountry", "street", "tallbuilding"]
 CLASS_LIST = ["all_ills", "beach", "building_facade", "forest", "formal_garden", "highway", "lake",
               "ruin", "ski_slope", "street", "valley"]
 
@@ -19,17 +18,17 @@ USE_PATCH = 1
 PATCH_SIZE = 100
 
 # model save dir
-PYTORCH_MODELS = "../models/Content/m1-sun3/"
+PYTORCH_MODELS = "../models/Content/"
 
 LOAD_TRAINED_MODEL = 0  # continue train from a ckpt
 
 # train dataset
-train_dir_path = './dataset/ContentData/train/'
-train_path = train_dir_path + "SUN/"
+train_dir_path = '../dataset_content/train'
+train_path = train_dir_path + "/"
 
 # test data
-test_dir_path = '../dataset/ContentData/test/'
-test_path = test_dir_path + 'SUN/ganilla/mbrown/'
+test_dir_path = '../dataset_content/test/'
+test_path = test_dir_path + 'mbrown/'
 
 # test model name
 MODEL_NAME = "../models/content_model-99.pkl"
