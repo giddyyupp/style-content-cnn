@@ -31,4 +31,4 @@ test_dir_path = '../dataset_content/test/'
 test_path = test_dir_path + 'mbrown/' # you may need to change this illustrator
 
 # test model name
-MODEL_NAME = "../models/content_model-99.pkl"
+MODEL_NAME = "../models/Content/content_model-99.pkl"
